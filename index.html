@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Documentacion Tecnica</title>
+</head>
+<body>
+    <nav class="nav" id="navbar">
+        <Header class="nav-header">Contenido</Header>
+        <a class="nav-link" href="#Introduccion">Introduccion</a>
+        <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+        <a class="nav-link" href="#Ventajas_y_Desventajas_JavaScript">Ventajas y Desventajas JavaScript</a>
+        <a class="nav-link" href="#Ventajas_y_Desventajas_Java">Ventajas y Desventajas Java</a>
+        <a class="nav-link" href="#Conclusion">Conclusion</a>
+
+    </nav>
+      
+    <main id="main-doc">
+        <section class="main-section"  id="Introduccion">
+            <header class="main-header">Introduccion</header>
+            <p>Java y Javascript son dos lenguajes de programación distintos. Comparten parte de su nombre y la base de su sintaxis, sin embargo en realidad sus diferencias no notables.</p>
+            <p>Realmente Javascript se llamó así porque Netscape (el navegador que lanzó Javascript), que estaba aliado a los creadores de Java en la época (Sun Microsystems), quiso aprovechar la imagen de marca y la popularidad de Java, como maniobra para la expansión de su nuevo lenguaje. Con todo, se creó un producto que tenía ciertas similitudes, como la sintaxis del lenguaje o el nombre. Se hizo entender que era un hermano pequeño y orientado específicamente para hacer cosas en las páginas web, pero también se hizo caer a muchas personas en el error de pensar que son lo mismo.</p>
+            <p>Queremos que quede claro que Javascript no tiene nada que ver con Java, salvo el acuerdo de colaboración de los creadores de ambos lenguajes, como se ha podido leer. Siempre han sido productos totalmente distintos que no guardan entre si más relación que la sintaxis idéntica, aunque a decir verdad, la sintaxis de ambos está heredada de otro popular lenguaje llamado C.</p>
+        </section>
+        <section class="main-section" id="JavaScript_and_Java">
+            <header class="main-header" >JavaScript and Java</header>
+            <p>Diferencias más notables entre Java y Javascript</p>
+            <p>Algunas de las diferencias más representativas estos dos lenguajes son las siguientes:</p>
+            <p>Declaracion de Variables en Java,<br><br> <code>byte x = [-128, 127];<br> short y =  [-32.768, 32.767]</code></p>
+            <COde>int = (Enteros)</COde><br>
+            <code>long = (entero mayor a 64Bits)</code><br>
+            <code>float = (Flotantes)</code><br>
+            <p style="margin-top: 15px;">Declaracion de Variables en JavaScript,<br></p>
+            <COde>let para variables locales</COde><br>
+            <code>var para variables globales</code><br>
+            <code>cons para variables fijas</code>
+            <p>
+                <ul>
+                    <li><p>Compilador. Para programar en Java necesitamos un Kit de desarrollo y un compilador. Sin embargo, Javascript no es un lenguaje que necesite que sus programas se compilen, sino que éstos se interpretan por parte del navegador cuando éste lee la página.</p></li>
+                    <li><p>Orientado a objetos. Java es un lenguaje de programación orientado a objetos. (Más tarde veremos que quiere decir orientado a objetos, para el que no lo sepa todavía). Javascript es un lenguaje "multiparadigma" no requiere programar orientado a objetos, aunque sí lo permite. Esto quiere decir que podremos programar en Javascrip sin necesidad de crear clases, tal como se realiza en los lenguajes de programación estructurada como C o Pascal.</p></li>
+                    <li><p>Propósito. Java en principio es mucho más potente que Javascript, debido a que es un lenguaje de propósito general. Con Java se pueden hacer aplicaciones de lo más variado, sin embargo, con Javascript sólo podemos escribir programas para que se ejecuten en páginas web. Aunque a decir verdad, desde la última década Javascript se ha expandido tanto que hoy podemos usar el lenguaje para hacer aplicaciones de todo tipo, como programas de consola, aplicaciones para móviles, de escritorio, etc. Por tanto, a día de hoy es Javacript podríamos decir que es casi tan potente, o más, de lo que es Java.</p></li>
+                    <li><p>Tipado estático. Java es un lenguaje de programación fuertemente tipado (también llamado de tipado estático). Esto quiere decir que al declarar una variable en Java tendremos que indicar su tipo y no podrá cambiar de un tipo a otro a lo largo de la ejecución del programa. Por su parte Javascript no tiene esta característica, sino que es un lenguaje de tipado dinámico (o levemente tipado) y podemos meter en una variable la información que deseemos, independientemente del tipo de ésta. Además, podremos cambiar el tipo de dato de una varible cuando queramos.</p></li>
+                    <li><p>Lenguaje abierto / lenguaje propietario: Otra diferencia importante es que Javascript está basado en un estándar abierto, que no tiene un dueño en particular y por tanto cualquier fabricante puede implementarlo en sus sistemas libremente. Sin embargo Java es un lenguaje propiedad de una empresa (actualmente Oracle), por lo que está dirigido con un enfoque particular y comercial.</p></li>
+                </ul>
+            </p>
+        </section>
+        <section class="main-section" id="Ventajas_y_Desventajas_JavaScript">
+            <header class="main-header">Ventajas y Desventajas JavaScript</header>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ventajas</th>
+                        <th>Desventajas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Velocidad -  JavaScript tiende a  ser muy rápido porque a menudo se ejecuta inmediatamente en el navegador. Entonces mientras no requiera recursos externos, JavaScript no tiene permitido retrasarse por llamados del servidor backend.</td>
+                        <td>Seguridad Client-Side- Desde que el código en JavaScript es ejecutado en el client-side, bugs y descuidos pueden ser explotados algunas veces para malos propósitos. Por esto, algunas personas deciden desactivar JavaScript por completo.</td>
+                    </tr>
+                    <tr>
+                        <td>Simplicidad - La sintaxis de JavaScript está inspirada por Java y es relativamente sencillo de aprender comparado a otros lenguajes de programación populares como C++. </td>
+                        <td>Soporte del navegador- Mientras server-side script siempre produce el mismo resultado, algunas veces diferentes navegadores interpretan el código JavaScript de manera distinta. Estos días  las diferencias son mínimas, y no deberías  tener que preocuparte mientras compruebes  tu código en la mayoría de los navegadores.  </td>
+                    </tr>
+                    <tr><td>Popularidad - JavaScript esta por todas partes de la web, y  con la llegada de Node.js,  se ha incrementado su uso en backend.  Hay incontables recursos para aprender JavaScript. Tanto  StackOverflow como GitHub muestran un creciente número de proyectos que usan JavaScript, y la popularidad que ha alcanzado en los recientes años se espera que siga creciendo.</td><td></td></tr>
+                    <tr><td>Compatibilidad- A diferencia de PHP u otros lenguajes scripting, JavaScript puede ser usado en cualquier página web. JavaScript puede ser usado en diferentes tipos de aplicaciones gracias al soporte en otros lenguajes como Pearl y PHP.</td></tr>
+                    <tr><td>Server Load- JavaScript es client-side, entonces esto reduce la demanda de servidores en general, y las aplicaciones sencillas puede que no necesiten el servidor del todo.</td><td></td></tr>
+                    <tr><td>Interfaces sencillas- JavaScript puede ser usado para crear características como arrastrar y soltar, y componentes tales como las diapositivas, lo cual  mejora enormemente la interfaz de usuario y la experiencia del sitio.</td><td></td></tr>
+                    
+                    
+                    
+                </tbody>
+            </table>
+        </section>
+        <section class="main-section" id="Ventajas_y_Desventajas_Java">
+            <header class="main-header">Ventajas y Desventajas Java</header>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ventajas</th>
+                        <th>Desventajas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>La principal característica de Java es que es independiente de la plataforma (multiplataforma). Esto significa que cuando estás programando en Java, no necesitas conocer a priori el tipo de ordenador o el sistema operativo para el que estás programando. Puedes ejecutar EL MISMO programa en un PC con Windows, otro con Linux, en un Servidor SUN con sistema operativo Solaris, o en un teléfono móvil de última generación.</td>
+                        <td>Al tratarse de un lenguaje interpretado, el rendimiento en la ejecución de programas suele ser un poco menor .</td>
+                    </tr>
+                    <tr>
+                        <td>El lenguaje Java es orientado a objetos. El paradigma de programación orientada a objetos supuso un gran avance en el desarrollo de aplicaciones, ya que es capaz de acercar la forma de programar a la forma de pensar del ser humano.</td>
+                        <td>Al contrario que los programas compilados a código nativo, sólo podemos ejecutar un programa en Java si disponemos de una máquina virtual (JVM), sin este simulador no podremos ejecutar ningún programa escrito en Java.</td>
+                    </tr>
+                    <tr><td>En java no existen problemas con la liberacion de memoria en el sistema: En Java decidieron romper con el sistema tradicional de liberación de memoria, haciendo que el programador ya no fuese el responsable de esa tarea. Así, lo único que necesita hacer el programador es solicitar la memoria al sistema.</td>
+                    <td>Aunque java es un lenguaje relativamente sencillo de manejar, no es recomendado implementarlo con personas que apenas se unen a este mundo, ya que Java se basa en una filosofía de programación (la orientación a objetos) que es una evolución de otras formas de entender la programación mas sencillas de enseñar e implementar</td></tr>
+                    <tr><td>El lenguaje Java es relativamente fácil de aprender comparado con otros.</td><td></td></tr>
+                    <tr><td>Librerías Estándar: Una de las características que más potencia aporta al lenguaje Java es que viene acompañado de una serie de librerías estándar para realizar multitud de operaciones comunes a la hora de programar. Es el llamado Java API, que incluye tres bloques básicos.</td><td></td></tr>
+                    <tr><td>Hoy en día existen excelentes editores (IDEs) que aportan multitud de ayudas a la programación, haciendo que el desarrollo sea más fluido y cómodo.</td><td></td></tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        <section class="main-section" id="Conclusion">
+            <header class="main-header">Conclusion</header>
+            <p>En resumen, y para dejar bien clara la diferencia sin palabras técnicas, desmiento a continuación algunos falsos mitos:</p>
+            <ul>
+                <li>JavaScript NO es lo mismo que Java.</li>
+                <li>JavaScript NO es un subconjunto de Java.</li>
+                <li>JavaScript NO es una versión de Java para programar páginas web.</li>
+                <li>JavaScript NO comparte prácticamente nada con Java. Si acaso la misma sintaxis que comparte con otros lenguajes como C, C++ o C#, y algún detalle más como algunos nombres de clases (Math o Date, por ejemplo), pero nada más.</li>
+                <li>JavaScript NO es más fácil que Java. De hecho en algunas áreas concretas es más difícil de dominar.</li>
+                <li>Si sabes programar en Java NO sabes programar en JavaScript. Y viceversa.</li>
+                <li>JavaScript NO es solo un lenguaje para páginas web, al igual que Java no es un lenguaje solo para servidor.</li>
+            </ul>
+            
+        </section>
+    </main>
+    
+</body>
+</html>
